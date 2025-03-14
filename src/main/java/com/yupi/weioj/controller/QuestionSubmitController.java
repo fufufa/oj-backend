@@ -9,7 +9,6 @@ import com.yupi.weioj.constant.UserConstant;
 import com.yupi.weioj.exception.BusinessException;
 import com.yupi.weioj.model.dto.questionsubmit.QuestionSubmitAddRequest;
 import com.yupi.weioj.model.dto.questionsubmit.QuestionSubmitQueryRequest;
-import com.yupi.weioj.model.entity.Question;
 import com.yupi.weioj.model.entity.QuestionSubmit;
 import com.yupi.weioj.model.entity.User;
 import com.yupi.weioj.model.vo.QuestionSubmitVO;

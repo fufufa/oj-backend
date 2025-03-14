@@ -9,13 +9,12 @@ import java.util.stream.Collectors;
 /**
  * 文件上传业务类型枚举
  *
-
  */
 public enum QuestionSubmitLanguageEnum {
 
     JAVA("java", "java"),
-    CPLUSPLUS("c++", "c++"),
-    GOLANG("golang", "golang");
+    CPLUSPLUS("cpp", "cpp"),
+    GOLANG("go", "go");
 
     private final String text;
 
@@ -39,7 +38,6 @@ public enum QuestionSubmitLanguageEnum {
      * 根据 value 获取枚举
      *
      * @param value
-     * @return
      */
     public static QuestionSubmitLanguageEnum getEnumByValue(String value) {
         if (ObjectUtils.isEmpty(value)) {
