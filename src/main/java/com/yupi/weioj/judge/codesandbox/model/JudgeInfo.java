@@ -1,4 +1,4 @@
-package com.yupi.weioj.model.dto.questionsubmit;
+package com.yupi.weioj.judge.codesandbox.model;
 import lombok.Data;
 /**
  * 题目配置

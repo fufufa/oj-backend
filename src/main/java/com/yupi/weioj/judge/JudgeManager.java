@@ -4,7 +4,7 @@ import com.yupi.weioj.judge.strategy.DefaultJudgeStrategy;
 import com.yupi.weioj.judge.strategy.JavaLanguageJudgeStrategy;
 import com.yupi.weioj.judge.strategy.JudgeContext;
 import com.yupi.weioj.judge.strategy.JudgeStrategy;
-import com.yupi.weioj.model.dto.questionsubmit.JudgeInfo;
+import com.yupi.weioj.judge.codesandbox.model.JudgeInfo;
 import com.yupi.weioj.model.entity.QuestionSubmit;
 import org.springframework.stereotype.Service;
 
